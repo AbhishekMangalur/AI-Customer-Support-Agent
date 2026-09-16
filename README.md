@@ -63,9 +63,14 @@ streamlit run src/app/streamlit_app.py
 
 ---
 
-## 🎯 Problem Framing & What "Good" Means for `@AppleSupport`
+## 🎯 Problem Framing & Dataset Context (`@AppleSupport`)
 
-### 1. Brand Context & Constraints
+### 1. Primary Dataset & Model Stack
+- **Primary Dataset**: Kaggle *Customer Support on Twitter* ([`thoughtvector/customer-support-on-twitter`](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter)) — ~3M tweets containing real, noisy, multi-turn customer-brand conversations.
+- **Target Brand**: `@AppleSupport` (Selected for its high conversation volume and structural variety across technical, financial, and hardware support categories).
+- **LLM & Model Stack**: Hybrid LLM Architecture powered by Google Gemini API / local statistical fallback (TF-IDF + RAG retriever for deterministic offline evaluation).
+
+### 2. Brand Context & Constraints
 `@AppleSupport` receives high volumes of complex technical, financial, and hardware queries. Customer dissatisfaction stems from:
 - Inaccurate diagnostic advice or hallucinated steps.
 - Security hazards (e.g. attempting password resets for unauthorized third parties).
