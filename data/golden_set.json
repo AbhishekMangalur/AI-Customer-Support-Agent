@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "gold_001",
+    "customer_text": "My Apple ID was locked for security reasons and I lost my trusted phone number!",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "We take security seriously! You can safely unlock and reset your Apple ID password at iforgot.apple.com. Identity verification may be required.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_002",
+    "customer_text": "Someone stole my iPhone at a concert last night! How do I lock it?",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Stolen iPhone report requiring immediate Lost Mode lock via iCloud.com/find.",
+    "reference_reply": "Act immediately! Go to iCloud.com/find from any browser to mark your iPhone as Lost, lock it, and suspend Apple Pay right away.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_003",
+    "customer_text": "I got an email saying someone signed into my Apple ID from another country!",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Suspected compromised Apple ID requiring password change and 2FA review.",
+    "reference_reply": "Your account safety is critical. Change your Apple ID password immediately at appleid.apple.com and review trusted devices under 2FA settings.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_004",
+    "customer_text": "The battery on my iPhone has swollen up and is pushing the screen outward!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Please stop charging and using your iPhone immediately. Keep it away from heat and visit support.apple.com/repair for professional service inspection.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_005",
+    "customer_text": "I dropped my iPhone 15 Pro Max and the back glass shattered into pieces.",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical hardware glass destruction requires professional service.",
+    "reference_reply": "Oh no! We recommend having a certified technician inspect the shattered glass safely. Visit support.apple.com/repair to check AppleCare+ pricing and schedule an appointment.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_006",
+    "customer_text": "My iPad charger port has a broken pin stuck inside it.",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Broken charger port pin requires professional service.",
+    "reference_reply": "Do not attempt to insert metal tools into the charger port. Please book a service appointment at support.apple.com/repair so a Genius Bar technician can clean it safely.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_007",
+    "customer_text": "My card was charged three times for the same Apple Music subscription this month!",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Potential duplicate billing anomaly requiring support review.",
+    "reference_reply": "Duplicate charges definitely need to be corrected. Please check reportproblem.apple.com to verify purchase history, or DM us your details so billing support can inspect it.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_008",
+    "customer_text": "I was charged $49.99 for an app subscription I canceled last week!",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "We can help you request a refund! Visit reportproblem.apple.com, log in with your Apple ID, find the charge, and click 'Request a refund'.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_009",
+    "customer_text": "How do I upgrade from 50GB iCloud storage to 200GB family sharing plan?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Upgrading is easy! Go to Settings > [Your Name] > iCloud > Manage Account Storage > Change Storage Plan, then select 200GB and tap Subscribe to iCloud+.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_010",
+    "customer_text": "My iPhone battery drops from 80% to 10% in less than an hour after updating.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Rapid battery drain right after an update can happen while system indexing completes. Check Settings > Battery to find high usage apps and try a force restart.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_011",
+    "customer_text": "My Wi-Fi keeps disconnecting every 5 minutes on my iPad Pro.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Let's fix that connection! Go to Settings > Wi-Fi > Forget This Network, then reconnect. You can also try Reset Network Settings.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_012",
+    "customer_text": "My iPhone screen is completely frozen and unresponsive to touch.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "To force restart a modern iPhone: press and quickly release Volume Up, then Volume Down, then hold the Side button until the Apple logo appears.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_013",
+    "customer_text": "iOS 17 update download is stuck on Estimating Time Remaining for an hour.",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Try deleting the downloaded installer! Go to Settings > General > iPhone Storage, find the iOS update, tap Delete Update, then go back to Software Update to redownload.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_014",
+    "customer_text": "After updating to macOS Sonoma my MacBook screen shows a flashing question mark folder!",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Potential OS boot/recovery issue requiring advanced support.",
+    "reference_reply": "A flashing question mark means your Mac can't find its startup disk. Turn off your Mac, then hold Command + R while booting to enter macOS Recovery and run Disk Utility First Aid.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_015",
+    "customer_text": "FedEx says my order was delivered today but there is no package! My $1500 laptop was stolen!",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Potential stolen/missing high-value delivery requiring carrier investigation.",
+    "reference_reply": "We take missing shipments very seriously. Please DM us your order number and full shipping name so our logistics team can open an immediate carrier investigation.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_016",
+    "customer_text": "My trade-in kit for my old iPhone hasn't arrived in the mail yet.",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Trade-in kits typically arrive within 3-5 business days after your new device ships. You can track trade-in kit delivery at apple.com/orderstatus.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_017",
+    "customer_text": "Are Apple Stores open on Thanksgiving day in California?",
+    "ground_truth_intent": "GENERAL_INQUIRY_FEEDBACK",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Apple Store hours vary by retail location on holidays. You can check specific store holiday hours at apple.com/retail.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_018",
+    "customer_text": "Please bring back the battery percentage icon inside the battery bar!",
+    "ground_truth_intent": "GENERAL_INQUIRY_FEEDBACK",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Thanks for sharing your feedback! We love hearing feature suggestions from our customers. You can submit product feedback directly to our design team at apple.com/feedback.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_019",
+    "customer_text": "My iPhone 14 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_020",
+    "customer_text": "My iPhone 13 Pro gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_021",
+    "customer_text": "The battery on my iPad Air is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_022",
+    "customer_text": "I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_023",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_024",
+    "customer_text": "Does iOS 17 support AirPods Pro?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_025",
+    "customer_text": "Can I check my order status for my new iPhone 14?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_026",
+    "customer_text": "My iPhone 13 Pro battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_027",
+    "customer_text": "My iPad Air gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_028",
+    "customer_text": "The battery on my MacBook Pro M2 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_029",
+    "customer_text": "I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_030",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my AirPods Pro?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_031",
+    "customer_text": "Does iOS 17 support iPhone 14?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_032",
+    "customer_text": "Can I check my order status for my new iPhone 13 Pro?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_033",
+    "customer_text": "My iPad Air battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_034",
+    "customer_text": "My MacBook Pro M2 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_035",
+    "customer_text": "The battery on my Apple Watch Series 9 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_036",
+    "customer_text": "I forgot my Apple ID passcode on my AirPods Pro and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_037",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPhone 14?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_038",
+    "customer_text": "Does iOS 17 support iPhone 13 Pro?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_039",
+    "customer_text": "Can I check my order status for my new iPad Air?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_040",
+    "customer_text": "My MacBook Pro M2 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_041",
+    "customer_text": "My Apple Watch Series 9 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_042",
+    "customer_text": "The battery on my AirPods Pro is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_043",
+    "customer_text": "I forgot my Apple ID passcode on my iPhone 14 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_044",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPhone 13 Pro?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_045",
+    "customer_text": "Does iOS 17 support iPad Air?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_046",
+    "customer_text": "Can I check my order status for my new MacBook Pro M2?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_047",
+    "customer_text": "My Apple Watch Series 9 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_048",
+    "customer_text": "My AirPods Pro gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_049",
+    "customer_text": "The battery on my iPhone 14 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_050",
+    "customer_text": "I forgot my Apple ID passcode on my iPhone 13 Pro and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_051",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPad Air?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_052",
+    "customer_text": "Does iOS 17 support MacBook Pro M2?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_053",
+    "customer_text": "Can I check my order status for my new Apple Watch Series 9?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_054",
+    "customer_text": "My AirPods Pro battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_055",
+    "customer_text": "My iPhone 14 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_056",
+    "customer_text": "The battery on my iPhone 13 Pro is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_057",
+    "customer_text": "I forgot my Apple ID passcode on my iPad Air and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_058",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my MacBook Pro M2?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_059",
+    "customer_text": "Does iOS 17 support Apple Watch Series 9?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_060",
+    "customer_text": "Can I check my order status for my new AirPods Pro?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_061",
+    "customer_text": "My iPhone 14 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_062",
+    "customer_text": "My iPhone 13 Pro gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_063",
+    "customer_text": "The battery on my iPad Air is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_064",
+    "customer_text": "I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_065",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_066",
+    "customer_text": "Does iOS 17 support AirPods Pro?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_067",
+    "customer_text": "Can I check my order status for my new iPhone 14?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_068",
+    "customer_text": "My iPhone 13 Pro battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_069",
+    "customer_text": "My iPad Air gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_070",
+    "customer_text": "The battery on my MacBook Pro M2 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_071",
+    "customer_text": "I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_072",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my AirPods Pro?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_073",
+    "customer_text": "Does iOS 17 support iPhone 14?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_074",
+    "customer_text": "Can I check my order status for my new iPhone 13 Pro?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_075",
+    "customer_text": "My iPad Air battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_076",
+    "customer_text": "My MacBook Pro M2 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_077",
+    "customer_text": "The battery on my Apple Watch Series 9 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_078",
+    "customer_text": "I forgot my Apple ID passcode on my AirPods Pro and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_079",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPhone 14?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_080",
+    "customer_text": "Does iOS 17 support iPhone 13 Pro?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_081",
+    "customer_text": "Can I check my order status for my new iPad Air?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_082",
+    "customer_text": "My MacBook Pro M2 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_083",
+    "customer_text": "My Apple Watch Series 9 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_084",
+    "customer_text": "The battery on my AirPods Pro is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_085",
+    "customer_text": "I forgot my Apple ID passcode on my iPhone 14 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_086",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPhone 13 Pro?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_087",
+    "customer_text": "Does iOS 17 support iPad Air?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_088",
+    "customer_text": "Can I check my order status for my new MacBook Pro M2?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_089",
+    "customer_text": "My Apple Watch Series 9 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_090",
+    "customer_text": "My AirPods Pro gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_091",
+    "customer_text": "The battery on my iPhone 14 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_092",
+    "customer_text": "I forgot my Apple ID passcode on my iPhone 13 Pro and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_093",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPad Air?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_094",
+    "customer_text": "Does iOS 17 support MacBook Pro M2?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_095",
+    "customer_text": "Can I check my order status for my new Apple Watch Series 9?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_096",
+    "customer_text": "My AirPods Pro battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_097",
+    "customer_text": "My iPhone 14 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_098",
+    "customer_text": "The battery on my iPhone 13 Pro is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_099",
+    "customer_text": "I forgot my Apple ID passcode on my iPad Air and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_100",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my MacBook Pro M2?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_101",
+    "customer_text": "Does iOS 17 support Apple Watch Series 9?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_102",
+    "customer_text": "Can I check my order status for my new AirPods Pro?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_103",
+    "customer_text": "My iPhone 14 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_104",
+    "customer_text": "My iPhone 13 Pro gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_105",
+    "customer_text": "The battery on my iPad Air is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_106",
+    "customer_text": "I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_107",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_108",
+    "customer_text": "Does iOS 17 support AirPods Pro?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_109",
+    "customer_text": "Can I check my order status for my new iPhone 14?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_110",
+    "customer_text": "My iPhone 13 Pro battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_111",
+    "customer_text": "My iPad Air gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_112",
+    "customer_text": "The battery on my MacBook Pro M2 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_113",
+    "customer_text": "I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_114",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my AirPods Pro?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_115",
+    "customer_text": "Does iOS 17 support iPhone 14?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_116",
+    "customer_text": "Can I check my order status for my new iPhone 13 Pro?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_117",
+    "customer_text": "My iPad Air battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_118",
+    "customer_text": "My MacBook Pro M2 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_119",
+    "customer_text": "The battery on my Apple Watch Series 9 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_120",
+    "customer_text": "I forgot my Apple ID passcode on my AirPods Pro and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_121",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPhone 14?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_122",
+    "customer_text": "Does iOS 17 support iPhone 13 Pro?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_123",
+    "customer_text": "Can I check my order status for my new iPad Air?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_124",
+    "customer_text": "My MacBook Pro M2 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_125",
+    "customer_text": "My Apple Watch Series 9 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_126",
+    "customer_text": "The battery on my AirPods Pro is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_127",
+    "customer_text": "I forgot my Apple ID passcode on my iPhone 14 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_128",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPhone 13 Pro?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_129",
+    "customer_text": "Does iOS 17 support iPad Air?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_130",
+    "customer_text": "Can I check my order status for my new MacBook Pro M2?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_131",
+    "customer_text": "My Apple Watch Series 9 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_132",
+    "customer_text": "My AirPods Pro gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_133",
+    "customer_text": "The battery on my iPhone 14 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_134",
+    "customer_text": "I forgot my Apple ID passcode on my iPhone 13 Pro and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_135",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPad Air?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_136",
+    "customer_text": "Does iOS 17 support MacBook Pro M2?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_137",
+    "customer_text": "Can I check my order status for my new Apple Watch Series 9?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_138",
+    "customer_text": "My AirPods Pro battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_139",
+    "customer_text": "My iPhone 14 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_140",
+    "customer_text": "The battery on my iPhone 13 Pro is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_141",
+    "customer_text": "I forgot my Apple ID passcode on my iPad Air and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_142",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my MacBook Pro M2?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_143",
+    "customer_text": "Does iOS 17 support Apple Watch Series 9?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_144",
+    "customer_text": "Can I check my order status for my new AirPods Pro?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_145",
+    "customer_text": "My iPhone 14 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_146",
+    "customer_text": "My iPhone 13 Pro gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_147",
+    "customer_text": "The battery on my iPad Air is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_148",
+    "customer_text": "I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_149",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_150",
+    "customer_text": "Does iOS 17 support AirPods Pro?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_151",
+    "customer_text": "Can I check my order status for my new iPhone 14?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_152",
+    "customer_text": "My iPhone 13 Pro battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_153",
+    "customer_text": "My iPad Air gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_154",
+    "customer_text": "The battery on my MacBook Pro M2 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_155",
+    "customer_text": "I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_156",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my AirPods Pro?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_157",
+    "customer_text": "Does iOS 17 support iPhone 14?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_158",
+    "customer_text": "Can I check my order status for my new iPhone 13 Pro?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_159",
+    "customer_text": "My iPad Air battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_160",
+    "customer_text": "My MacBook Pro M2 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_161",
+    "customer_text": "The battery on my Apple Watch Series 9 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_162",
+    "customer_text": "I forgot my Apple ID passcode on my AirPods Pro and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_163",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPhone 14?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_164",
+    "customer_text": "Does iOS 17 support iPhone 13 Pro?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_165",
+    "customer_text": "Can I check my order status for my new iPad Air?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_166",
+    "customer_text": "My MacBook Pro M2 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_167",
+    "customer_text": "My Apple Watch Series 9 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_168",
+    "customer_text": "The battery on my AirPods Pro is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_169",
+    "customer_text": "I forgot my Apple ID passcode on my iPhone 14 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_170",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPhone 13 Pro?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_171",
+    "customer_text": "Does iOS 17 support iPad Air?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_172",
+    "customer_text": "Can I check my order status for my new MacBook Pro M2?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_173",
+    "customer_text": "My Apple Watch Series 9 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_174",
+    "customer_text": "My AirPods Pro gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_175",
+    "customer_text": "The battery on my iPhone 14 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_176",
+    "customer_text": "I forgot my Apple ID passcode on my iPhone 13 Pro and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_177",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my iPad Air?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_178",
+    "customer_text": "Does iOS 17 support MacBook Pro M2?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_179",
+    "customer_text": "Can I check my order status for my new Apple Watch Series 9?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_180",
+    "customer_text": "My AirPods Pro battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_181",
+    "customer_text": "My iPhone 14 gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_182",
+    "customer_text": "The battery on my iPhone 13 Pro is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_183",
+    "customer_text": "I forgot my Apple ID passcode on my iPad Air and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_184",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my MacBook Pro M2?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_185",
+    "customer_text": "Does iOS 17 support Apple Watch Series 9?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_186",
+    "customer_text": "Can I check my order status for my new AirPods Pro?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_187",
+    "customer_text": "My iPhone 14 battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_188",
+    "customer_text": "My iPhone 13 Pro gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_189",
+    "customer_text": "The battery on my iPad Air is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_190",
+    "customer_text": "I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_191",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_192",
+    "customer_text": "Does iOS 17 support AirPods Pro?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_193",
+    "customer_text": "Can I check my order status for my new iPhone 14?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_194",
+    "customer_text": "My iPhone 13 Pro battery health dropped to 85% after 6 months.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check Settings > Battery > Battery Health & Charging for capacity health details.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_195",
+    "customer_text": "My iPad Air gets slightly warm when playing graphics intensive games.",
+    "ground_truth_intent": "TECHNICAL_TROUBLESHOOTING",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_196",
+    "customer_text": "The battery on my MacBook Pro M2 is bulging and smoking!",
+    "ground_truth_intent": "HARDWARE_REPAIR_WARRANTY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Physical swollen/expanding battery or smoke hazard detected; stop charging immediately.",
+    "reference_reply": "SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_197",
+    "customer_text": "I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.",
+    "ground_truth_intent": "ACCOUNT_ACCESS_SECURITY",
+    "ground_truth_escalate": true,
+    "ground_truth_escalation_reason": "Apple ID account lockout with lost 2FA trusted device requiring identity verification.",
+    "reference_reply": "Visit iforgot.apple.com to initiate secure password recovery or device restore.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_198",
+    "customer_text": "How do I cancel my Apple TV+ subscription on my AirPods Pro?",
+    "ground_truth_intent": "BILLING_SUBSCRIPTION",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_199",
+    "customer_text": "Does iOS 17 support iPhone 14?",
+    "ground_truth_intent": "SOFTWARE_UPDATE_OS",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Check full iOS 17 device compatibility list at apple.com/ios/ios-17.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "gold_200",
+    "customer_text": "Can I check my order status for my new iPhone 13 Pro?",
+    "ground_truth_intent": "ORDER_SHIPPING_DELIVERY",
+    "ground_truth_escalate": false,
+    "ground_truth_escalation_reason": "NONE",
+    "reference_reply": "Sign in with your Apple ID at apple.com/orderstatus to view tracking status.",
+    "human_quality_score": 5
+  }
+]
