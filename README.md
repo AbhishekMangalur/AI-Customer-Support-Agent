@@ -1,4 +1,4 @@
-# 🍏 AI Support Agent & LLM Evaluation Engine for Customer Support (`@AppleSupport`)
+# AI Support Agent & LLM Evaluation Engine for Customer Support (`@AppleSupport`)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/pytest-11%20passed-brightgreen.svg)](tests/)
@@ -170,8 +170,3 @@ While our Proposed Agent achieves **75.5% Intent Accuracy** and an **F1 Escalati
 12. **Markdown Reproducibility Harness (`run_eval.py`)**: Created 1-click CLI script formatting headline results into clean Markdown tables for immediate review.
 
 ---
-
-## 📄 Submission Metadata
-- **Author**: SDE Intern Candidate
-- **Target Brand**: `@AppleSupport`
-- **Submission Email**: `anurag@hiverhq.com`
