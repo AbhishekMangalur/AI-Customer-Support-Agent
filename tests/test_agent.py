@@ -98,3 +98,13 @@ def test_master_agent_grounding_score_range():
     agent = AppleSupportAgent()
     res = agent.process_message("My card was charged three times for the same Apple Music subscription this month!")
     assert 0.00 <= res["retrieval_grounding_score"] <= 1.00
+
+
+def test_regression_cases_file_exists_and_valid():
+    """Verify data/golden/regression_cases.json contains 21 regression cases."""
+    import os, json
+    reg_path = "data/golden/regression_cases.json"
+    assert os.path.exists(reg_path), f"Regression cases file not found at {reg_path}"
+    with open(reg_path, "r", encoding="utf-8") as f:
+        cases = json.load(f)
+    assert len(cases) == 21, f"Expected 21 regression cases, got {len(cases)}"

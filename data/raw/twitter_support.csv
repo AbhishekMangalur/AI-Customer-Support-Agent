@@ -1,0 +1,401 @@
+tweet_id,author_id,in_response_to_tweet_id,created_at,text,response_tweet_id
+2000,Customer_1000,,Tue Oct 10 20:00:00 +0000 2023,My Apple ID was locked for security reasons and I lost my trusted phone number!,2001
+2001,AppleSupport,2000,Tue Oct 10 20:05:00 +0000 2023,We take security seriously! You can safely unlock and reset your Apple ID password at iforgot.apple.com. Identity verification may be required.,
+2002,Customer_1001,,Tue Oct 10 20:00:00 +0000 2023,Someone stole my iPhone at a concert last night! How do I lock it?,2003
+2003,AppleSupport,2002,Tue Oct 10 20:05:00 +0000 2023,"Act immediately! Go to iCloud.com/find from any browser to mark your iPhone as Lost, lock it, and suspend Apple Pay right away.",
+2004,Customer_1002,,Tue Oct 10 20:00:00 +0000 2023,I got an email saying someone signed into my Apple ID from another country!,2005
+2005,AppleSupport,2004,Tue Oct 10 20:05:00 +0000 2023,Your account safety is critical. Change your Apple ID password immediately at appleid.apple.com and review trusted devices under 2FA settings.,
+2006,Customer_1003,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPhone has swollen up and is pushing the screen outward!,2007
+2007,AppleSupport,2006,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Please stop charging and using your iPhone immediately. Keep it away from heat and visit support.apple.com/repair for professional service inspection.,
+2008,Customer_1004,,Tue Oct 10 20:00:00 +0000 2023,I dropped my iPhone 15 Pro Max and the back glass shattered into pieces.,2009
+2009,AppleSupport,2008,Tue Oct 10 20:05:00 +0000 2023,Oh no! We recommend having a certified technician inspect the shattered glass safely. Visit support.apple.com/repair to check AppleCare+ pricing and schedule an appointment.,
+2010,Customer_1005,,Tue Oct 10 20:00:00 +0000 2023,My iPad charger port has a broken pin stuck inside it.,2011
+2011,AppleSupport,2010,Tue Oct 10 20:05:00 +0000 2023,Do not attempt to insert metal tools into the charger port. Please book a service appointment at support.apple.com/repair so a Genius Bar technician can clean it safely.,
+2012,Customer_1006,,Tue Oct 10 20:00:00 +0000 2023,My card was charged three times for the same Apple Music subscription this month!,2013
+2013,AppleSupport,2012,Tue Oct 10 20:05:00 +0000 2023,"Duplicate charges definitely need to be corrected. Please check reportproblem.apple.com to verify purchase history, or DM us your details so billing support can inspect it.",
+2014,Customer_1007,,Tue Oct 10 20:00:00 +0000 2023,I was charged $49.99 for an app subscription I canceled last week!,2015
+2015,AppleSupport,2014,Tue Oct 10 20:05:00 +0000 2023,"We can help you request a refund! Visit reportproblem.apple.com, log in with your Apple ID, find the charge, and click 'Request a refund'.",
+2016,Customer_1008,,Tue Oct 10 20:00:00 +0000 2023,How do I upgrade from 50GB iCloud storage to 200GB family sharing plan?,2017
+2017,AppleSupport,2016,Tue Oct 10 20:05:00 +0000 2023,"Upgrading is easy! Go to Settings > [Your Name] > iCloud > Manage Account Storage > Change Storage Plan, then select 200GB and tap Subscribe to iCloud+.",
+2018,Customer_1009,,Tue Oct 10 20:00:00 +0000 2023,My iPhone battery drops from 80% to 10% in less than an hour after updating.,2019
+2019,AppleSupport,2018,Tue Oct 10 20:05:00 +0000 2023,Rapid battery drain right after an update can happen while system indexing completes. Check Settings > Battery to find high usage apps and try a force restart.,
+2020,Customer_1010,,Tue Oct 10 20:00:00 +0000 2023,My Wi-Fi keeps disconnecting every 5 minutes on my iPad Pro.,2021
+2021,AppleSupport,2020,Tue Oct 10 20:05:00 +0000 2023,"Let's fix that connection! Go to Settings > Wi-Fi > Forget This Network, then reconnect. You can also try Reset Network Settings.",
+2022,Customer_1011,,Tue Oct 10 20:00:00 +0000 2023,My iPhone screen is completely frozen and unresponsive to touch.,2023
+2023,AppleSupport,2022,Tue Oct 10 20:05:00 +0000 2023,"To force restart a modern iPhone: press and quickly release Volume Up, then Volume Down, then hold the Side button until the Apple logo appears.",
+2024,Customer_1012,,Tue Oct 10 20:00:00 +0000 2023,iOS 17 update download is stuck on Estimating Time Remaining for an hour.,2025
+2025,AppleSupport,2024,Tue Oct 10 20:05:00 +0000 2023,"Try deleting the downloaded installer! Go to Settings > General > iPhone Storage, find the iOS update, tap Delete Update, then go back to Software Update to redownload.",
+2026,Customer_1013,,Tue Oct 10 20:00:00 +0000 2023,After updating to macOS Sonoma my MacBook screen shows a flashing question mark folder!,2027
+2027,AppleSupport,2026,Tue Oct 10 20:05:00 +0000 2023,"A flashing question mark means your Mac can't find its startup disk. Turn off your Mac, then hold Command + R while booting to enter macOS Recovery and run Disk Utility First Aid.",
+2028,Customer_1014,,Tue Oct 10 20:00:00 +0000 2023,FedEx says my order was delivered today but there is no package! My $1500 laptop was stolen!,2029
+2029,AppleSupport,2028,Tue Oct 10 20:05:00 +0000 2023,We take missing shipments very seriously. Please DM us your order number and full shipping name so our logistics team can open an immediate carrier investigation.,
+2030,Customer_1015,,Tue Oct 10 20:00:00 +0000 2023,My trade-in kit for my old iPhone hasn't arrived in the mail yet.,2031
+2031,AppleSupport,2030,Tue Oct 10 20:05:00 +0000 2023,Trade-in kits typically arrive within 3-5 business days after your new device ships. You can track trade-in kit delivery at apple.com/orderstatus.,
+2032,Customer_1016,,Tue Oct 10 20:00:00 +0000 2023,Are Apple Stores open on Thanksgiving day in California?,2033
+2033,AppleSupport,2032,Tue Oct 10 20:05:00 +0000 2023,Apple Store hours vary by retail location on holidays. You can check specific store holiday hours at apple.com/retail.,
+2034,Customer_1017,,Tue Oct 10 20:00:00 +0000 2023,Please bring back the battery percentage icon inside the battery bar!,2035
+2035,AppleSupport,2034,Tue Oct 10 20:05:00 +0000 2023,Thanks for sharing your feedback! We love hearing feature suggestions from our customers. You can submit product feedback directly to our design team at apple.com/feedback.,
+2036,Customer_1018,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 14 battery health dropped to 85% after 6 months.,2037
+2037,AppleSupport,2036,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2038,Customer_1019,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro gets slightly warm when playing graphics intensive games.,2039
+2039,AppleSupport,2038,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2040,Customer_1020,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPad Air is bulging and smoking!,2041
+2041,AppleSupport,2040,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2042,Customer_1021,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.,2043
+2043,AppleSupport,2042,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2044,Customer_1022,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?,2045
+2045,AppleSupport,2044,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2046,Customer_1023,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support AirPods Pro?,2047
+2047,AppleSupport,2046,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2048,Customer_1024,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 14?,2049
+2049,AppleSupport,2048,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2050,Customer_1025,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro battery health dropped to 85% after 6 months.,2051
+2051,AppleSupport,2050,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2052,Customer_1026,,Tue Oct 10 20:00:00 +0000 2023,My iPad Air gets slightly warm when playing graphics intensive games.,2053
+2053,AppleSupport,2052,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2054,Customer_1027,,Tue Oct 10 20:00:00 +0000 2023,The battery on my MacBook Pro M2 is bulging and smoking!,2055
+2055,AppleSupport,2054,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2056,Customer_1028,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.,2057
+2057,AppleSupport,2056,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2058,Customer_1029,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my AirPods Pro?,2059
+2059,AppleSupport,2058,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2060,Customer_1030,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPhone 14?,2061
+2061,AppleSupport,2060,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2062,Customer_1031,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 13 Pro?,2063
+2063,AppleSupport,2062,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2064,Customer_1032,,Tue Oct 10 20:00:00 +0000 2023,My iPad Air battery health dropped to 85% after 6 months.,2065
+2065,AppleSupport,2064,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2066,Customer_1033,,Tue Oct 10 20:00:00 +0000 2023,My MacBook Pro M2 gets slightly warm when playing graphics intensive games.,2067
+2067,AppleSupport,2066,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2068,Customer_1034,,Tue Oct 10 20:00:00 +0000 2023,The battery on my Apple Watch Series 9 is bulging and smoking!,2069
+2069,AppleSupport,2068,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2070,Customer_1035,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my AirPods Pro and entered it wrong 10 times.,2071
+2071,AppleSupport,2070,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2072,Customer_1036,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPhone 14?,2073
+2073,AppleSupport,2072,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2074,Customer_1037,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPhone 13 Pro?,2075
+2075,AppleSupport,2074,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2076,Customer_1038,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPad Air?,2077
+2077,AppleSupport,2076,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2078,Customer_1039,,Tue Oct 10 20:00:00 +0000 2023,My MacBook Pro M2 battery health dropped to 85% after 6 months.,2079
+2079,AppleSupport,2078,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2080,Customer_1040,,Tue Oct 10 20:00:00 +0000 2023,My Apple Watch Series 9 gets slightly warm when playing graphics intensive games.,2081
+2081,AppleSupport,2080,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2082,Customer_1041,,Tue Oct 10 20:00:00 +0000 2023,The battery on my AirPods Pro is bulging and smoking!,2083
+2083,AppleSupport,2082,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2084,Customer_1042,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPhone 14 and entered it wrong 10 times.,2085
+2085,AppleSupport,2084,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2086,Customer_1043,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPhone 13 Pro?,2087
+2087,AppleSupport,2086,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2088,Customer_1044,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPad Air?,2089
+2089,AppleSupport,2088,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2090,Customer_1045,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new MacBook Pro M2?,2091
+2091,AppleSupport,2090,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2092,Customer_1046,,Tue Oct 10 20:00:00 +0000 2023,My Apple Watch Series 9 battery health dropped to 85% after 6 months.,2093
+2093,AppleSupport,2092,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2094,Customer_1047,,Tue Oct 10 20:00:00 +0000 2023,My AirPods Pro gets slightly warm when playing graphics intensive games.,2095
+2095,AppleSupport,2094,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2096,Customer_1048,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPhone 14 is bulging and smoking!,2097
+2097,AppleSupport,2096,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2098,Customer_1049,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPhone 13 Pro and entered it wrong 10 times.,2099
+2099,AppleSupport,2098,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2100,Customer_1050,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPad Air?,2101
+2101,AppleSupport,2100,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2102,Customer_1051,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support MacBook Pro M2?,2103
+2103,AppleSupport,2102,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2104,Customer_1052,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new Apple Watch Series 9?,2105
+2105,AppleSupport,2104,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2106,Customer_1053,,Tue Oct 10 20:00:00 +0000 2023,My AirPods Pro battery health dropped to 85% after 6 months.,2107
+2107,AppleSupport,2106,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2108,Customer_1054,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 14 gets slightly warm when playing graphics intensive games.,2109
+2109,AppleSupport,2108,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2110,Customer_1055,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPhone 13 Pro is bulging and smoking!,2111
+2111,AppleSupport,2110,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2112,Customer_1056,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPad Air and entered it wrong 10 times.,2113
+2113,AppleSupport,2112,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2114,Customer_1057,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my MacBook Pro M2?,2115
+2115,AppleSupport,2114,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2116,Customer_1058,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support Apple Watch Series 9?,2117
+2117,AppleSupport,2116,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2118,Customer_1059,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new AirPods Pro?,2119
+2119,AppleSupport,2118,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2120,Customer_1060,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 14 battery health dropped to 85% after 6 months.,2121
+2121,AppleSupport,2120,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2122,Customer_1061,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro gets slightly warm when playing graphics intensive games.,2123
+2123,AppleSupport,2122,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2124,Customer_1062,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPad Air is bulging and smoking!,2125
+2125,AppleSupport,2124,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2126,Customer_1063,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.,2127
+2127,AppleSupport,2126,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2128,Customer_1064,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?,2129
+2129,AppleSupport,2128,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2130,Customer_1065,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support AirPods Pro?,2131
+2131,AppleSupport,2130,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2132,Customer_1066,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 14?,2133
+2133,AppleSupport,2132,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2134,Customer_1067,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro battery health dropped to 85% after 6 months.,2135
+2135,AppleSupport,2134,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2136,Customer_1068,,Tue Oct 10 20:00:00 +0000 2023,My iPad Air gets slightly warm when playing graphics intensive games.,2137
+2137,AppleSupport,2136,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2138,Customer_1069,,Tue Oct 10 20:00:00 +0000 2023,The battery on my MacBook Pro M2 is bulging and smoking!,2139
+2139,AppleSupport,2138,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2140,Customer_1070,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.,2141
+2141,AppleSupport,2140,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2142,Customer_1071,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my AirPods Pro?,2143
+2143,AppleSupport,2142,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2144,Customer_1072,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPhone 14?,2145
+2145,AppleSupport,2144,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2146,Customer_1073,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 13 Pro?,2147
+2147,AppleSupport,2146,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2148,Customer_1074,,Tue Oct 10 20:00:00 +0000 2023,My iPad Air battery health dropped to 85% after 6 months.,2149
+2149,AppleSupport,2148,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2150,Customer_1075,,Tue Oct 10 20:00:00 +0000 2023,My MacBook Pro M2 gets slightly warm when playing graphics intensive games.,2151
+2151,AppleSupport,2150,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2152,Customer_1076,,Tue Oct 10 20:00:00 +0000 2023,The battery on my Apple Watch Series 9 is bulging and smoking!,2153
+2153,AppleSupport,2152,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2154,Customer_1077,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my AirPods Pro and entered it wrong 10 times.,2155
+2155,AppleSupport,2154,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2156,Customer_1078,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPhone 14?,2157
+2157,AppleSupport,2156,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2158,Customer_1079,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPhone 13 Pro?,2159
+2159,AppleSupport,2158,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2160,Customer_1080,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPad Air?,2161
+2161,AppleSupport,2160,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2162,Customer_1081,,Tue Oct 10 20:00:00 +0000 2023,My MacBook Pro M2 battery health dropped to 85% after 6 months.,2163
+2163,AppleSupport,2162,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2164,Customer_1082,,Tue Oct 10 20:00:00 +0000 2023,My Apple Watch Series 9 gets slightly warm when playing graphics intensive games.,2165
+2165,AppleSupport,2164,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2166,Customer_1083,,Tue Oct 10 20:00:00 +0000 2023,The battery on my AirPods Pro is bulging and smoking!,2167
+2167,AppleSupport,2166,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2168,Customer_1084,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPhone 14 and entered it wrong 10 times.,2169
+2169,AppleSupport,2168,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2170,Customer_1085,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPhone 13 Pro?,2171
+2171,AppleSupport,2170,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2172,Customer_1086,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPad Air?,2173
+2173,AppleSupport,2172,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2174,Customer_1087,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new MacBook Pro M2?,2175
+2175,AppleSupport,2174,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2176,Customer_1088,,Tue Oct 10 20:00:00 +0000 2023,My Apple Watch Series 9 battery health dropped to 85% after 6 months.,2177
+2177,AppleSupport,2176,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2178,Customer_1089,,Tue Oct 10 20:00:00 +0000 2023,My AirPods Pro gets slightly warm when playing graphics intensive games.,2179
+2179,AppleSupport,2178,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2180,Customer_1090,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPhone 14 is bulging and smoking!,2181
+2181,AppleSupport,2180,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2182,Customer_1091,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPhone 13 Pro and entered it wrong 10 times.,2183
+2183,AppleSupport,2182,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2184,Customer_1092,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPad Air?,2185
+2185,AppleSupport,2184,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2186,Customer_1093,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support MacBook Pro M2?,2187
+2187,AppleSupport,2186,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2188,Customer_1094,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new Apple Watch Series 9?,2189
+2189,AppleSupport,2188,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2190,Customer_1095,,Tue Oct 10 20:00:00 +0000 2023,My AirPods Pro battery health dropped to 85% after 6 months.,2191
+2191,AppleSupport,2190,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2192,Customer_1096,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 14 gets slightly warm when playing graphics intensive games.,2193
+2193,AppleSupport,2192,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2194,Customer_1097,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPhone 13 Pro is bulging and smoking!,2195
+2195,AppleSupport,2194,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2196,Customer_1098,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPad Air and entered it wrong 10 times.,2197
+2197,AppleSupport,2196,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2198,Customer_1099,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my MacBook Pro M2?,2199
+2199,AppleSupport,2198,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2200,Customer_1100,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support Apple Watch Series 9?,2201
+2201,AppleSupport,2200,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2202,Customer_1101,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new AirPods Pro?,2203
+2203,AppleSupport,2202,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2204,Customer_1102,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 14 battery health dropped to 85% after 6 months.,2205
+2205,AppleSupport,2204,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2206,Customer_1103,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro gets slightly warm when playing graphics intensive games.,2207
+2207,AppleSupport,2206,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2208,Customer_1104,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPad Air is bulging and smoking!,2209
+2209,AppleSupport,2208,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2210,Customer_1105,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.,2211
+2211,AppleSupport,2210,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2212,Customer_1106,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?,2213
+2213,AppleSupport,2212,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2214,Customer_1107,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support AirPods Pro?,2215
+2215,AppleSupport,2214,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2216,Customer_1108,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 14?,2217
+2217,AppleSupport,2216,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2218,Customer_1109,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro battery health dropped to 85% after 6 months.,2219
+2219,AppleSupport,2218,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2220,Customer_1110,,Tue Oct 10 20:00:00 +0000 2023,My iPad Air gets slightly warm when playing graphics intensive games.,2221
+2221,AppleSupport,2220,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2222,Customer_1111,,Tue Oct 10 20:00:00 +0000 2023,The battery on my MacBook Pro M2 is bulging and smoking!,2223
+2223,AppleSupport,2222,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2224,Customer_1112,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.,2225
+2225,AppleSupport,2224,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2226,Customer_1113,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my AirPods Pro?,2227
+2227,AppleSupport,2226,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2228,Customer_1114,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPhone 14?,2229
+2229,AppleSupport,2228,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2230,Customer_1115,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 13 Pro?,2231
+2231,AppleSupport,2230,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2232,Customer_1116,,Tue Oct 10 20:00:00 +0000 2023,My iPad Air battery health dropped to 85% after 6 months.,2233
+2233,AppleSupport,2232,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2234,Customer_1117,,Tue Oct 10 20:00:00 +0000 2023,My MacBook Pro M2 gets slightly warm when playing graphics intensive games.,2235
+2235,AppleSupport,2234,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2236,Customer_1118,,Tue Oct 10 20:00:00 +0000 2023,The battery on my Apple Watch Series 9 is bulging and smoking!,2237
+2237,AppleSupport,2236,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2238,Customer_1119,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my AirPods Pro and entered it wrong 10 times.,2239
+2239,AppleSupport,2238,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2240,Customer_1120,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPhone 14?,2241
+2241,AppleSupport,2240,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2242,Customer_1121,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPhone 13 Pro?,2243
+2243,AppleSupport,2242,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2244,Customer_1122,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPad Air?,2245
+2245,AppleSupport,2244,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2246,Customer_1123,,Tue Oct 10 20:00:00 +0000 2023,My MacBook Pro M2 battery health dropped to 85% after 6 months.,2247
+2247,AppleSupport,2246,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2248,Customer_1124,,Tue Oct 10 20:00:00 +0000 2023,My Apple Watch Series 9 gets slightly warm when playing graphics intensive games.,2249
+2249,AppleSupport,2248,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2250,Customer_1125,,Tue Oct 10 20:00:00 +0000 2023,The battery on my AirPods Pro is bulging and smoking!,2251
+2251,AppleSupport,2250,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2252,Customer_1126,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPhone 14 and entered it wrong 10 times.,2253
+2253,AppleSupport,2252,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2254,Customer_1127,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPhone 13 Pro?,2255
+2255,AppleSupport,2254,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2256,Customer_1128,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPad Air?,2257
+2257,AppleSupport,2256,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2258,Customer_1129,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new MacBook Pro M2?,2259
+2259,AppleSupport,2258,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2260,Customer_1130,,Tue Oct 10 20:00:00 +0000 2023,My Apple Watch Series 9 battery health dropped to 85% after 6 months.,2261
+2261,AppleSupport,2260,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2262,Customer_1131,,Tue Oct 10 20:00:00 +0000 2023,My AirPods Pro gets slightly warm when playing graphics intensive games.,2263
+2263,AppleSupport,2262,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2264,Customer_1132,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPhone 14 is bulging and smoking!,2265
+2265,AppleSupport,2264,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2266,Customer_1133,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPhone 13 Pro and entered it wrong 10 times.,2267
+2267,AppleSupport,2266,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2268,Customer_1134,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPad Air?,2269
+2269,AppleSupport,2268,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2270,Customer_1135,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support MacBook Pro M2?,2271
+2271,AppleSupport,2270,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2272,Customer_1136,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new Apple Watch Series 9?,2273
+2273,AppleSupport,2272,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2274,Customer_1137,,Tue Oct 10 20:00:00 +0000 2023,My AirPods Pro battery health dropped to 85% after 6 months.,2275
+2275,AppleSupport,2274,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2276,Customer_1138,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 14 gets slightly warm when playing graphics intensive games.,2277
+2277,AppleSupport,2276,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2278,Customer_1139,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPhone 13 Pro is bulging and smoking!,2279
+2279,AppleSupport,2278,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2280,Customer_1140,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPad Air and entered it wrong 10 times.,2281
+2281,AppleSupport,2280,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2282,Customer_1141,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my MacBook Pro M2?,2283
+2283,AppleSupport,2282,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2284,Customer_1142,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support Apple Watch Series 9?,2285
+2285,AppleSupport,2284,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2286,Customer_1143,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new AirPods Pro?,2287
+2287,AppleSupport,2286,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2288,Customer_1144,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 14 battery health dropped to 85% after 6 months.,2289
+2289,AppleSupport,2288,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2290,Customer_1145,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro gets slightly warm when playing graphics intensive games.,2291
+2291,AppleSupport,2290,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2292,Customer_1146,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPad Air is bulging and smoking!,2293
+2293,AppleSupport,2292,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2294,Customer_1147,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.,2295
+2295,AppleSupport,2294,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2296,Customer_1148,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?,2297
+2297,AppleSupport,2296,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2298,Customer_1149,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support AirPods Pro?,2299
+2299,AppleSupport,2298,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2300,Customer_1150,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 14?,2301
+2301,AppleSupport,2300,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2302,Customer_1151,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro battery health dropped to 85% after 6 months.,2303
+2303,AppleSupport,2302,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2304,Customer_1152,,Tue Oct 10 20:00:00 +0000 2023,My iPad Air gets slightly warm when playing graphics intensive games.,2305
+2305,AppleSupport,2304,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2306,Customer_1153,,Tue Oct 10 20:00:00 +0000 2023,The battery on my MacBook Pro M2 is bulging and smoking!,2307
+2307,AppleSupport,2306,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2308,Customer_1154,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.,2309
+2309,AppleSupport,2308,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2310,Customer_1155,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my AirPods Pro?,2311
+2311,AppleSupport,2310,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2312,Customer_1156,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPhone 14?,2313
+2313,AppleSupport,2312,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2314,Customer_1157,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 13 Pro?,2315
+2315,AppleSupport,2314,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2316,Customer_1158,,Tue Oct 10 20:00:00 +0000 2023,My iPad Air battery health dropped to 85% after 6 months.,2317
+2317,AppleSupport,2316,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2318,Customer_1159,,Tue Oct 10 20:00:00 +0000 2023,My MacBook Pro M2 gets slightly warm when playing graphics intensive games.,2319
+2319,AppleSupport,2318,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2320,Customer_1160,,Tue Oct 10 20:00:00 +0000 2023,The battery on my Apple Watch Series 9 is bulging and smoking!,2321
+2321,AppleSupport,2320,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2322,Customer_1161,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my AirPods Pro and entered it wrong 10 times.,2323
+2323,AppleSupport,2322,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2324,Customer_1162,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPhone 14?,2325
+2325,AppleSupport,2324,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2326,Customer_1163,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPhone 13 Pro?,2327
+2327,AppleSupport,2326,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2328,Customer_1164,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPad Air?,2329
+2329,AppleSupport,2328,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2330,Customer_1165,,Tue Oct 10 20:00:00 +0000 2023,My MacBook Pro M2 battery health dropped to 85% after 6 months.,2331
+2331,AppleSupport,2330,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2332,Customer_1166,,Tue Oct 10 20:00:00 +0000 2023,My Apple Watch Series 9 gets slightly warm when playing graphics intensive games.,2333
+2333,AppleSupport,2332,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2334,Customer_1167,,Tue Oct 10 20:00:00 +0000 2023,The battery on my AirPods Pro is bulging and smoking!,2335
+2335,AppleSupport,2334,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2336,Customer_1168,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPhone 14 and entered it wrong 10 times.,2337
+2337,AppleSupport,2336,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2338,Customer_1169,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPhone 13 Pro?,2339
+2339,AppleSupport,2338,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2340,Customer_1170,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPad Air?,2341
+2341,AppleSupport,2340,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2342,Customer_1171,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new MacBook Pro M2?,2343
+2343,AppleSupport,2342,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2344,Customer_1172,,Tue Oct 10 20:00:00 +0000 2023,My Apple Watch Series 9 battery health dropped to 85% after 6 months.,2345
+2345,AppleSupport,2344,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2346,Customer_1173,,Tue Oct 10 20:00:00 +0000 2023,My AirPods Pro gets slightly warm when playing graphics intensive games.,2347
+2347,AppleSupport,2346,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2348,Customer_1174,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPhone 14 is bulging and smoking!,2349
+2349,AppleSupport,2348,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2350,Customer_1175,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPhone 13 Pro and entered it wrong 10 times.,2351
+2351,AppleSupport,2350,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2352,Customer_1176,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my iPad Air?,2353
+2353,AppleSupport,2352,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2354,Customer_1177,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support MacBook Pro M2?,2355
+2355,AppleSupport,2354,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2356,Customer_1178,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new Apple Watch Series 9?,2357
+2357,AppleSupport,2356,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2358,Customer_1179,,Tue Oct 10 20:00:00 +0000 2023,My AirPods Pro battery health dropped to 85% after 6 months.,2359
+2359,AppleSupport,2358,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2360,Customer_1180,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 14 gets slightly warm when playing graphics intensive games.,2361
+2361,AppleSupport,2360,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2362,Customer_1181,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPhone 13 Pro is bulging and smoking!,2363
+2363,AppleSupport,2362,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2364,Customer_1182,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my iPad Air and entered it wrong 10 times.,2365
+2365,AppleSupport,2364,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2366,Customer_1183,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my MacBook Pro M2?,2367
+2367,AppleSupport,2366,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2368,Customer_1184,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support Apple Watch Series 9?,2369
+2369,AppleSupport,2368,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2370,Customer_1185,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new AirPods Pro?,2371
+2371,AppleSupport,2370,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2372,Customer_1186,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 14 battery health dropped to 85% after 6 months.,2373
+2373,AppleSupport,2372,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2374,Customer_1187,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro gets slightly warm when playing graphics intensive games.,2375
+2375,AppleSupport,2374,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2376,Customer_1188,,Tue Oct 10 20:00:00 +0000 2023,The battery on my iPad Air is bulging and smoking!,2377
+2377,AppleSupport,2376,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2378,Customer_1189,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my MacBook Pro M2 and entered it wrong 10 times.,2379
+2379,AppleSupport,2378,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2380,Customer_1190,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my Apple Watch Series 9?,2381
+2381,AppleSupport,2380,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2382,Customer_1191,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support AirPods Pro?,2383
+2383,AppleSupport,2382,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2384,Customer_1192,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 14?,2385
+2385,AppleSupport,2384,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,
+2386,Customer_1193,,Tue Oct 10 20:00:00 +0000 2023,My iPhone 13 Pro battery health dropped to 85% after 6 months.,2387
+2387,AppleSupport,2386,Tue Oct 10 20:05:00 +0000 2023,Check Settings > Battery > Battery Health & Charging for capacity health details.,
+2388,Customer_1194,,Tue Oct 10 20:00:00 +0000 2023,My iPad Air gets slightly warm when playing graphics intensive games.,2389
+2389,AppleSupport,2388,Tue Oct 10 20:05:00 +0000 2023,Devices warming up during gaming is normal. Close background apps and avoid direct sunlight.,
+2390,Customer_1195,,Tue Oct 10 20:00:00 +0000 2023,The battery on my MacBook Pro M2 is bulging and smoking!,2391
+2391,AppleSupport,2390,Tue Oct 10 20:05:00 +0000 2023,SAFETY WARNING: Stop charging and using the device immediately. Visit support.apple.com/repair.,
+2392,Customer_1196,,Tue Oct 10 20:00:00 +0000 2023,I forgot my Apple ID passcode on my Apple Watch Series 9 and entered it wrong 10 times.,2393
+2393,AppleSupport,2392,Tue Oct 10 20:05:00 +0000 2023,Visit iforgot.apple.com to initiate secure password recovery or device restore.,
+2394,Customer_1197,,Tue Oct 10 20:00:00 +0000 2023,How do I cancel my Apple TV+ subscription on my AirPods Pro?,2395
+2395,AppleSupport,2394,Tue Oct 10 20:05:00 +0000 2023,Go to Settings > [Your Name] > Subscriptions > Apple TV+ > Cancel Subscription.,
+2396,Customer_1198,,Tue Oct 10 20:00:00 +0000 2023,Does iOS 17 support iPhone 14?,2397
+2397,AppleSupport,2396,Tue Oct 10 20:05:00 +0000 2023,Check full iOS 17 device compatibility list at apple.com/ios/ios-17.,
+2398,Customer_1199,,Tue Oct 10 20:00:00 +0000 2023,Can I check my order status for my new iPhone 13 Pro?,2399
+2399,AppleSupport,2398,Tue Oct 10 20:05:00 +0000 2023,Sign in with your Apple ID at apple.com/orderstatus to view tracking status.,

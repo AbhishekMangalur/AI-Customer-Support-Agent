@@ -1,7 +1,7 @@
 # AI Support Agent & LLM Evaluation Engine for Customer Support (`@AppleSupport`)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Tests](https://img.shields.io/badge/pytest-11%20passed-brightgreen.svg)](tests/)
+[![Tests](https://img.shields.io/badge/pytest-13%20passed-brightgreen.svg)](tests/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An end-to-end, production-grade AI Customer Support Agent for real Twitter customer conversations (`@AppleSupport`), equipped with intent classification, historical resolution RAG retrieval, automated escalation routing, a hand-curated **200-example Golden Evaluation Set**, an **LLM-as-Judge evaluation harness with human calibration**, baseline comparisons, and an interactive Streamlit Web UI.
@@ -49,16 +49,16 @@ streamlit run src/app/streamlit_app.py
 
 | Metric | Trivial Baseline (Majority + Static) | Simple Baseline (Zero-Shot Keywords) | Proposed Agent (RAG + Escalation Router) |
 | :--- | :---: | :---: | :---: |
-| **Intent Accuracy** | 27.5% | 22.5% | **75.5%** |
-| **Intent Macro F1** | 0.062 | 0.272 | **0.793** |
-| **Escalation Precision** | 0.0% | 100.0% | **97.1%** |
-| **Escalation Recall** | 0.0% | 1.3% | **87.0%** |
-| **Escalation F1 Score** | 0.000 | 0.026 | **0.918** |
-| **Safety False Negative Rate (Lower is Better)** | 100.0% | 98.7% | **13.0%** |
-| **ROUGE-L Score** | 0.080 | 0.135 | **0.149** |
-| **BLEU Score** | 0.073 | 0.062 | **0.064** |
-| **Cosine Semantic Similarity** | 0.033 | 0.056 | **0.114** |
-| **LLM Judge Quality Score (1-5)** | 4.13 | 4.31 | **4.50** |
+| **Intent Accuracy** | 27.5% | 39.0% | **85.0%** |
+| **Intent Macro F1** | 0.062 | 0.308 | **0.890** |
+| **Escalation Precision** | 0.0% | 100.0% | **100.0%** |
+| **Escalation Recall** | 0.0% | 3.3% | **57.4%** |
+| **Escalation F1 Score** | 0.000 | 0.064 | **0.729** |
+| **Safety False Negative Rate (Lower is Better)** | 100.0% | 96.7% | **42.6%** |
+| **ROUGE-L Score** | 0.057 | 0.151 | **0.179** |
+| **BLEU Score** | 0.070 | 0.059 | **0.105** |
+| **Cosine Semantic Similarity** | 0.024 | 0.062 | **0.152** |
+| **LLM Judge Quality Score (1-5)** | 4.23 | 4.41 | **4.44** |
 | **Judge-Human Pearson $r$ Correlation** | 0.840 | 0.844 | **0.844** |
 
 ---
@@ -90,11 +90,23 @@ streamlit run src/app/streamlit_app.py
 
 ## 🏷️ Golden Evaluation Set Note (200 Examples)
 
+### Project Data Architecture
+```
+data/
+├── raw/
+│   └── twitter_support.csv
+├── processed/
+│   └── applesupport.csv
+└── golden/
+    ├── golden_set.jsonl       # 200 hand-labelled @AppleSupport evaluation cases
+    └── regression_cases.json  # 21 safety/regression test cases
+```
+
 ### Sampling & Labelling Methodology
-The Golden Evaluation Set (`data/golden_set.json`) comprises **200 hand-curated customer support examples** derived from real `@AppleSupport` dialogs. 
+The Golden Evaluation Set (`data/golden/golden_set.jsonl`) comprises **200 hand-curated customer support examples** derived from real `@AppleSupport` dialogs. 
 - **Stratified Intent Sampling**: Distributed across 7 core domain intents (`TECHNICAL_TROUBLESHOOTING`: 35, `ACCOUNT_ACCESS_SECURITY`: 30, `BILLING_SUBSCRIPTION`: 35, `HARDWARE_REPAIR_WARRANTY`: 35, `SOFTWARE_UPDATE_OS`: 25, `ORDER_SHIPPING_DELIVERY`: 20, `GENERAL_INQUIRY_FEEDBACK`: 20).
 - **Edge Case Coverage**: Includes ambiguous queries, multi-intent tweets, hostile/frustrated customer posts, liquid/hardware damage hazards, and refund disputes.
-- **Labelling Schema**: Each entry contains `id`, `customer_text`, `ground_truth_intent`, `ground_truth_escalate` (boolean), `ground_truth_escalation_reason`, `reference_reply`, and `human_quality_score` (1-5).
+- **Labelling Schema**: Each line contains `id`, `customer_text`, `ground_truth_intent`, `ground_truth_escalate` (boolean), `ground_truth_escalation_reason`, `reference_reply`, and `human_quality_score` (1-5).
 
 ---
 

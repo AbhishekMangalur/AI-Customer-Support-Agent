@@ -18,17 +18,28 @@ from src.eval.calibration import compute_judge_calibration
 class EvaluationHarness:
     """Benchmark runner for Hiver Take-Home Assignment."""
 
-    def __init__(self, golden_set_path: str = "data/golden_set.json"):
+    def __init__(self, golden_set_path: str = "data/golden/golden_set.jsonl"):
+        if not os.path.exists(golden_set_path) and os.path.exists("data/golden_set.json"):
+            golden_set_path = "data/golden_set.json"
         self.golden_set_path = golden_set_path
         self.golden_set = self._load_golden_set()
         self.judge = LLMJudgeEvaluator()
 
     def _load_golden_set(self) -> List[Dict[str, Any]]:
-        """Load hand-labelled Golden Set."""
+        """Load hand-labelled Golden Set in JSONL or JSON format."""
         if not os.path.exists(self.golden_set_path):
             raise FileNotFoundError(f"Golden set file not found at {self.golden_set_path}")
-        with open(self.golden_set_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        
+        if self.golden_set_path.endswith(".jsonl"):
+            items = []
+            with open(self.golden_set_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.strip():
+                        items.append(json.loads(line.strip()))
+            return items
+        else:
+            with open(self.golden_set_path, "r", encoding="utf-8") as f:
+                return json.load(f)
 
     def evaluate_agent(self, agent_name: str, agent_instance: Any, limit: Optional[int] = None) -> Dict[str, Any]:
         """

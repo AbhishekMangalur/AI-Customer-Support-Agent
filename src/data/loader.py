@@ -41,11 +41,57 @@ class TwitterDataLoader:
         self.kb_file = os.path.join(self.processed_dir, "apple_support_kb.json")
 
     def load_or_create_resolution_pairs(self, limit: int = 1000) -> List[Dict[str, str]]:
-        """Load historical resolution pairs matching Hiver Section 16 specification."""
+        """Load historical resolution pairs from Kaggle twcs.csv or processed dataset."""
+        csv_path = os.path.join(self.data_dir, "twcs.csv")
+        sample_csv_path = os.path.join(self.data_dir, "sample_twcs.csv")
+
+        target_csv = csv_path if os.path.exists(csv_path) else (sample_csv_path if os.path.exists(sample_csv_path) else None)
+
+        if target_csv:
+            try:
+                pairs = self.parse_kaggle_twcs_csv(target_csv, brand=DEFAULT_BRAND, limit=limit)
+                if pairs:
+                    with open(self.kb_file, "w", encoding="utf-8") as f:
+                        json.dump(pairs, f, indent=2)
+                    return pairs[:limit]
+            except Exception:
+                pass
+
+        if os.path.exists(self.kb_file):
+            with open(self.kb_file, "r", encoding="utf-8") as f:
+                pairs = json.load(f)
+                if pairs:
+                    return pairs[:limit]
+
         kb_pairs = self._build_seed_resolution_kb()
         with open(self.kb_file, "w", encoding="utf-8") as f:
             json.dump(kb_pairs, f, indent=2)
         return kb_pairs[:limit]
+
+    def parse_kaggle_twcs_csv(self, csv_path: str, brand: str = "AppleSupport", limit: int = 1000) -> List[Dict[str, str]]:
+        """Parse raw Kaggle Customer Support on Twitter (twcs.csv) for brand resolution pairs."""
+        df = pd.read_csv(csv_path, nrows=50000)
+        brand_df = df[df['author_id'] == brand]
+        
+        pairs = []
+        for idx, row in brand_df.iterrows():
+            if len(pairs) >= limit:
+                break
+            in_response = row.get('in_response_to_tweet_id')
+            if pd.notna(in_response):
+                cust_row = df[df['tweet_id'] == in_response]
+                if not cust_row.empty:
+                    cust_text = clean_tweet_text(str(cust_row.iloc[0]['text']))
+                    brand_resp = clean_tweet_text(str(row['text']))
+                    if cust_text and brand_resp:
+                        pairs.append({
+                            "id": f"twcs_{row['tweet_id']}",
+                            "intent": "TECHNICAL_TROUBLESHOOTING",
+                            "customer_text": cust_text,
+                            "brand_response": brand_resp,
+                            "resolution_summary": brand_resp
+                        })
+        return pairs
 
     def _build_seed_resolution_kb(self) -> List[Dict[str, str]]:
         """Construct authoritative historical resolution pairs for @AppleSupport."""
