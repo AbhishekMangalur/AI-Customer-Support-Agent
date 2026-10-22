@@ -13,8 +13,8 @@ An end-to-end, production-grade AI Customer Support Agent for real Twitter custo
 ### 1. Clone & Setup Environment
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/hiver-ai-agent.git
-cd hiver-ai-agent
+git clone https://github.com/your-repo/ai-agent.git
+cd ai-agent
 
 # Create & activate virtual environment
 python -m venv venv

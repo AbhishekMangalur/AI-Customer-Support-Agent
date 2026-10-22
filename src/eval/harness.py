@@ -16,7 +16,7 @@ from src.eval.calibration import compute_judge_calibration
 
 
 class EvaluationHarness:
-    """Benchmark runner for Hiver Take-Home Assignment."""
+    """Benchmark runner for AI Agent Specification."""
 
     def __init__(self, golden_set_path: str = "data/golden/golden_set.jsonl"):
         if not os.path.exists(golden_set_path) and os.path.exists("data/golden_set.json"):

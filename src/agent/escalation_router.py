@@ -1,5 +1,5 @@
 """
-Escalation Router Module matching Hiver Assignment Specification.
+Escalation Router Module matching AI Agent Assignment Specification.
 Evaluates semantic meaning to generate issue-specific escalation reasons
 grounded ONLY in the actual customer tweet and detected condition.
 """
@@ -8,7 +8,7 @@ from typing import Dict, Any, List, Optional
 
 
 class EscalationRouter:
-    """Multi-factor decision router adhering strictly to Hiver Action Policy."""
+    """Multi-factor decision router adhering strictly to AI Agent Action Policy."""
 
     def __init__(self, confidence_threshold: float = 0.25):
         self.confidence_threshold = confidence_threshold

@@ -1,7 +1,7 @@
 """
 Master Support Agent Pipeline.
 Coordinates Intent Classifier, Resolution Retriever, Reply Generator, and Escalation Router,
-formatting output to match Section 18 of Hiver Specification.
+formatting output to match Section 18 of  AI Agent Specification.
 """
 
 from typing import Dict, Any, Optional
@@ -13,7 +13,7 @@ from src.data.loader import TwitterDataLoader
 
 
 class AppleSupportAgent:
-    """End-to-end AI Support Agent for @AppleSupport adhering strictly to Hiver specification."""
+    """End-to-end AI Support Agent for @AppleSupport adhering strictly to AI Agent specification."""
 
     def __init__(self, data_loader: Optional[TwitterDataLoader] = None):
         self.data_loader = data_loader or TwitterDataLoader()
@@ -25,7 +25,7 @@ class AppleSupportAgent:
     def process_message(self, customer_text: str) -> Dict[str, Any]:
         """
         Process incoming customer tweet through full agent pipeline.
-        Returns complete analysis dictionary matching Hiver Section 18 schema.
+        Returns complete analysis dictionary matching AI Agent Specification schema.
         """
         # 1. Classify Intent
         intent_res = self.intent_classifier.predict(customer_text)

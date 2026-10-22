@@ -1,6 +1,6 @@
 """
 Intent Classifier Module for AI Customer Support Agent.
-Enforces exact Hiver taxonomy and intent classification logic.
+Enforces exact AI Agent taxonomy and intent classification logic.
 """
 
 import os
@@ -28,7 +28,7 @@ except ImportError:
 
 
 class IntentClassifier:
-    """Classifies customer tweets into one of 7 predefined Hiver domain intents."""
+    """Classifies customer tweets into one of 7 predefined AI Agent domain intents."""
 
     def __init__(self, data_loader: Optional[TwitterDataLoader] = None):
         self.intents = list(INTENT_TAXONOMY.keys())
@@ -173,7 +173,7 @@ Respond ONLY with a JSON object:
         return None
 
     def _check_rule_heuristics(self, text: str) -> Optional[str]:
-        """High-precision keyword rules matching Hiver spec."""
+        """High-precision keyword rules matching AI Agent spec."""
         lower = text.lower()
 
         # Swollen battery vs normal battery drain distinction

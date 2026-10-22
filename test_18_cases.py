@@ -1,5 +1,5 @@
 """
-Authoritative 18 Test Cases Runner for Hiver Specification.
+Authoritative 18 Test Cases Runner for Ai Agent Specification.
 Runs all 18 cases from Section 16 through AppleSupportAgent and evaluates each check against Section 15 & 18.
 """
 
@@ -33,7 +33,7 @@ AUTHORITATIVE_CASES = [
 def main():
     agent = AppleSupportAgent()
     print("=========================================================================")
-    print("      Hiver Specification: Section 16 Authoritative 18 Test Cases        ")
+    print("      AI Agent Specification: Section 16 Authoritative 18 Test Cases        ")
     print("=========================================================================\n")
 
     passed_count = 0

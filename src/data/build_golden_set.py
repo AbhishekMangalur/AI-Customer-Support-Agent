@@ -1,6 +1,6 @@
 """
-Golden Evaluation Set Builder for Hiver Take-Home Assignment.
-Contains all 18 Authoritative Test Cases from Hiver Specification Section 16,
+Golden Evaluation Set Builder for AI Agent Specification.
+Contains all 18 Authoritative Test Cases from AI Agent Specification Section 16,
 expanded to 200 hand-labelled evaluation examples.
 """
 

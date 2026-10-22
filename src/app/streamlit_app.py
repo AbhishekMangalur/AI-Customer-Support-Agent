@@ -19,12 +19,12 @@ from src.baselines.simple_baseline import SimpleBaselineAgent
 from src.eval.harness import EvaluationHarness
 
 st.set_page_config(
-    page_title="Hiver AI Support Agent - @AppleSupport",
+    page_title="AI Support Agent - @AppleSupport",
     layout="wide"
 )
 
 st.title("AI Customer Support Agent & LLM Evaluation Harness")
-st.caption("Hiver SDE Intern Take-Home Assignment | Target Brand: `@AppleSupport`")
+st.caption("AI Agent | Target Brand: `@AppleSupport`")
 
 @st.cache_resource
 def load_agents():

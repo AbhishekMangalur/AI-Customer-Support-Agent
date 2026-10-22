@@ -1,5 +1,5 @@
 """
-Standalone 1-Click Evaluation Runner for Hiver Take-Home Assignment.
+Standalone 1-Click Evaluation Runner for AI Agent.
 Runs the evaluation harness on the Golden Set and prints headline results table.
 """
 
@@ -11,7 +11,7 @@ from src.eval.harness import EvaluationHarness
 
 def main():
     print("=========================================================================")
-    print("     Hiver SDE Intern Assignment: AI Support Agent Evaluation Harness    ")
+    print("    AI Support Agent Evaluation Harness    ")
     print("=========================================================================\n")
 
     golden_path = os.path.join(os.path.dirname(__file__), "data", "golden_set.json")
